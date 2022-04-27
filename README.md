@@ -3,11 +3,9 @@
 **Note**: These are the assignments that I completed in this course. That means the skeleton of the project was given to us by the instructor and I worked on completing the required tasks.
 In this course, I built a compiler for a custom language called **MiniC**, which is a subset of the C language. The compiler project was split into 6 assignments, each of which focusing on one of the main stages of the compiling process. The description of each assignment’s tasks can be viewed in a pdf in this repo.
 
-&nbsp;
-        
-<img src="/A1/compiler-stages.png" style="width:600px;height:300px;">
-
-&nbsp;
+<p align="center">
+    <kbd><img src="/A1/compiler-stages.png" style="width:600px;height:300px;"></kbd>
+</p>
 
 The assigments 2 and 3 aimed to build the MiniC compiler's front-end and assigments 4, 5 and 6 aimed to build the MiniC compiler's back-end.
 
@@ -15,7 +13,7 @@ You can find the **MiniC** language specifications [*here*](/MiniC-language.pdf)
 
 The following is each of these assignments in detail.
 
-&nbsp;
+--
 
 ### **`Assignment 1`**
 
@@ -64,7 +62,7 @@ alias grun='java -Xmx500M -cp "/usr/local/lib/antlr-4.10.1-complete.jar:$CLASSPA
 
 You can view the detailed completion requirements of this assignment [*here*](/A1/a1.pdf) and its tutorial [*here*](/A1/tut1.pdf).
 
-&nbsp;
+--
 
 ### **`Assignment 2`**
 
@@ -109,11 +107,9 @@ grun MiniC prog -gui var_loop.c
 
 The following is the parse tree generated for it:
 
-&nbsp;
-
-<img src="/A2/var_loop_parse_tree.png" style="width:600px;height:300px;">
-
-&nbsp;
+<p align="center">
+    <kbd><img src="/A2/var_loop_parse_tree.png" style="width:600px;height:300px;"></kbd>
+</p>
 
 **Note**
 
@@ -121,7 +117,7 @@ We cannot generate the parse tree when we have added the *actions* to the MiniC.
 
 You can view the detailed completion requirements of this assignment [*here*](/A2/a2.pdf) and its tutorial [*here*](/A2/tut2.pdf).
 
-&nbsp;
+--
 
 ### **`Assignment 3`**
 
@@ -189,7 +185,7 @@ MiniCProg [syslibFlag=0] (3, 0)
 
 You can view the detailed completion requirements of this assignment [*here*](/A3/a3.pdf) and its tutorial [*here*](/A3/tut3.pdf).
 
-&nbsp;
+--
 
 ### **`Assignment 4`**
 
@@ -226,7 +222,7 @@ Conditional expression in if statement has non-bool type! (13:8)
 
 You can view the detailed completion requirements of this assignment [*here*](/A4/a4.pdf) and and its tutorial [*here*](/A4/tut4.pdf).
 
-&nbsp;
+--
 
 ### **`Assignment 5`**
 
@@ -585,7 +581,7 @@ out-bb6:                                          ; preds = %then-bb5, %body-bb3
 
 You can view the detailed completion requirements of this assignment [*here*](/A5/a5.pdf) and its tutorials [*here*](/A5/tut5-1.pdf) and [*here*](/A5/tut5-2.pdf).
 
-&nbsp;
+--
 
 ### **`Assignment 6`**
 
@@ -941,5 +937,5 @@ python3 asstN.py -v
 
 **Note**
 
-As I mentioned, this project was provided to us in parts in the form of 6 different assignments. The folder `MiniC-compiler-code` is a collection of my implementations for each of the assignments 1-6 all in one place.
+As I mentioned, this project was provided to us in parts in the form of 6 different assignments. The folder `MiniC-compiler-code` is the collection of my implementations for each of the assignments 1-6 all in one place.
 
